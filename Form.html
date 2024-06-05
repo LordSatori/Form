@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width:device-width, initial-scale:1">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<title>Register Form</title> 
+</head>
+<body>
+<section class="container">
+<h1>Registation Form</h1>
+<form class="form" action="form.php" method="get">
+<div class="form-box">
+<label for="username">First name:</label>
+<input type="text" placeholder="Username">
+</div>
+<div class="form-box">
+<label for="username">Last name:</label>
+<input type="text" placeholder="Username">
+</div>
+<div class="form-box">
+<label for="date of birth">Date of birth:</label>
+<input type="date" placeholder="DD/MM/YYYY">
+</div>
+<br>
+<h3>Birthplace:</h3>
+<div class="birth">
+<div class="form-box">
+<label for="place">Village</label>
+<input type="text" placeholder="Enter here">
+</div>
+<div class="form-box">
+<label for="place">Commune</label>
+<input type="text" placeholder="Enter here">
+</div>
+</div>
+<div class="birth">
+<div class="form-box">
+<label for="place">District</label>
+<input type="text" placeholder="Enter here">
+</div>
+<div class="form-box">
+<label for="place">City</label>
+<input type="text" placeholder="Enter here">
+</div>
+</div>
+<br>
+<h3>Gender:</h3>
+<div class="gender">
+<div class="radio">
+<input type="radio" value="Male" name="gender">
+<label for="gender">Male</label> 
+</div>
+<div class="radio">
+<input type="radio" value="Female" name="gender">
+<label for="gender">Female</label> 
+</div>
+<div class="radio">
+<input type="radio" value="Other" name="gender">
+<label for="gender">No rather to say</label> 
+</div>
+</div>
+<div class="form-box">
+<label for="Contact">Contact:</label>
+<input type="tel" placeholder="Tel">
+</div>
+<div class="form-box">
+<label for="email">Email:</label>
+<input type="email" placeholder="Someone@example.com">
+</div>
+<button>Submit</button>
+</form>
+</section>
+</body>
+</html>
